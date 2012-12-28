@@ -21,7 +21,7 @@
   
   <groupId>com.tkmtwo</groupId>
   <artifactId>tkmtwo-pom</artifactId>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   
   <packaging>pom</packaging>
   
@@ -1637,6 +1637,11 @@
   
   <repositories>
     <repository>
+        <id>tkmtwo.repo</id>
+        <url>https://github.com/tkmtwo/tkmtwo-mvn-repo/raw/master/release</url>
+    </repository>
+
+    <repository>
       <id>spring.maven.release</id>
       <name>Spring Release Repository</name>
       <url>http://maven.springframework.org/release</url>
@@ -1687,11 +1692,11 @@
   <distributionManagement>
     <repository>
       <id>repo</id>
-      <url>https://github.com/tkmtwo/tkmtwo-mvn-repo/raw/master/releases</url>
+      <url>https://github.com/tkmtwo/tkmtwo-mvn-repo/raw/master/release</url>
     </repository>
     <snapshotRepository>
       <id>snapshot-repo</id>
-      <url>https://github.com/tkmtwo/tkmtwo-mvn-repo/raw/master/snapshots</url>
+      <url>https://github.com/tkmtwo/tkmtwo-mvn-repo/raw/master/snapshot</url>
     </snapshotRepository>
   </distributionManagement>
   
