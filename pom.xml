@@ -21,7 +21,7 @@
   
   <groupId>com.tkmtwo</groupId>
   <artifactId>tkmtwo-pom</artifactId>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   
   <packaging>pom</packaging>
   
@@ -159,6 +159,12 @@
         <groupId>xml-apis</groupId>
         <artifactId>xml-apis</artifactId>
         <version>${xmlapis.version}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>xml-resolver</groupId>
+        <artifactId>xml-resolver</artifactId>
+        <version>${xmlresolver.version}</version>
       </dependency>
       
       <dependency>
@@ -847,7 +853,7 @@
     <xbean.version>3.11.1</xbean.version>
     <xerces.version>2.10.0</xerces.version>
     <xmlapis.version>1.4.01</xmlapis.version>
-    
+    <xmlresolver.version>1.2</xmlresolver.version>
   </properties>
   
 
